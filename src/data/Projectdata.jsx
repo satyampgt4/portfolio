@@ -1,8 +1,8 @@
 const Projectdata = [
     {
-        name : "",
-        imgsrc : "",
-        src : "",
+        name : "Tick-tack-toe",
+        imgsrc : "images/tto.jpg",
+        src : "https://satyampgt4.github.io/tictactoe",
         des : " "
     }
 

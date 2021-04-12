@@ -1,5 +1,4 @@
-
-import './css/App.css';
+import './App.css';
 import Navigation from './component/Navigation';
 import Resume from './component/Resume';
 import Aboutme from './component/Aboutme';
@@ -9,6 +8,7 @@ import Education from './component/Education';
 import Projects from './component/Projects';
 import Contact from './component/Contact';
 import Footer from './component/Footer';
+
 
 function App() {
   return (

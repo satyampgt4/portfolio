@@ -1,11 +1,22 @@
 
 function ExperienceCard(props) {
+    const iconstyel =
+{
+    width: "60px",
+    height: "60px",   
+    backgroundColor: "white"
+};
+const imgstyle =
+{
+     height: "60px",
+     borderRadius: '5px!important'
+};
     return (
         <>
             <div id="experience-timeline">
                 <div class="vtimeline-point">
-                    <div class="vtimeline-icon">
-                        <i class="fa fa-map-marker"></i>
+                    <div class="vtimeline-icon" style={iconstyel}>
+                        <img src={props.src} alt={props.alt} style={imgstyle}/>
                     </div>
                     <div class="vtimeline-block">
                         <span class="vtimeline-date">{props.date}</span>

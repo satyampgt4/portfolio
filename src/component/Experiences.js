@@ -8,6 +8,8 @@ function Experiences() {
                 {Experiencedata.map((val) => {
                     return (
                         <ExperienceCard
+                            src={val.src}
+                            alt={val.alt}
                             date={val.date}
                             orgn={val.orgn}
                             title={val.title}
