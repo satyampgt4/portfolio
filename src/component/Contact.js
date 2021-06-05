@@ -1,7 +1,7 @@
 function Contact() {
     return (
         <>
-            <div id="contact">
+            <div id="contact" data-aos="fade-up" data-aos-duration="1500">
                 <h2>Get in Touch</h2>
                 <div id="contact-form">
                     <form method="POST" action="https://formspree.io/f/moqyqpbq">

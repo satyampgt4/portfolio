@@ -7,14 +7,14 @@ function ProjectCard(props) {
     return (
        
         <>
-            <div class="project shadow-large">
-                    <div class="project-image">
+            <div className="project shadow-large" data-aos="flip-right" data-aos-duration="1500">
+                    <div className="project-image">
                         <img src= {props.Pimgsrc} style={imgStyle} />
                     </div>
-                    <div class="project-info">
+                    <div className="project-info">
                         <h3>{props.Pname}</h3>
                         <p>{props.Pdes}</p>
-                        <a href={props.Psrc} add target="_blank">View Project</a>
+                        <a href={props.Psrc} add target="_blank" style = {{textAlign:"left"}}>View Project</a>
                     </div>
                 </div>
         </>

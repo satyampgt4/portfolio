@@ -3,11 +3,12 @@ import Experiencedata from '../data/Experiencedata';
 function Experiences() {
     return (
         <>
-            <div id="experience" class="background-alt">
-                <h2 class="heading">Experience</h2>
-                {Experiencedata.map((val) => {
+            <div id="experience" className="background-alt">
+                <h2 className="heading" data-aos="fade-up">Experience</h2>
+                {Experiencedata.map((val,index) => {
                     return (
                         <ExperienceCard
+                            key={index}
                             src={val.src}
                             alt={val.alt}
                             date={val.date}

@@ -15,7 +15,7 @@ function App() {
     <>
     <Navigation/>
     <Resume/>
-    <Aboutme/>
+    <Aboutme />
     <Skills/>
     <Experiences/>
     <Education/>

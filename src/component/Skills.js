@@ -2,12 +2,12 @@ import Skill from '../data/Skill';
 function Skills() {
     return (
         <>
-            <div id="skills">
-                <h2 class="heading">Skills</h2>
+            <div id="skills" data-aos="fade-up" data-aos-duration="1500">
+                <h2 className="heading">Skills</h2>
                 <ul>
-                    {Skill.map((val) => {
+                    {Skill.map((val, index) => {
                         return (
-                            <li>{val}</li>
+                            <li key = {index} data-aos="flip-right">{val}</li>
                         );
                     })}
                 </ul>

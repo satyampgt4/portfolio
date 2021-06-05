@@ -3,13 +3,14 @@ import ProjectCard from './ProjectCard'
 function Projects() {
     return (
         <>
-            <div id="projects" class="background-alt">
-                <h2 class="heading">Projects</h2>
-                <div class="container">
-                    <div class="row">
-                    {Projectdata.map((val) => {
+            <div id="projects" className="background-alt" data-aos="fade-up" data-aos-duration="1500">
+                <h2 className="heading">Projects</h2>
+                <div className="container">
+                    <div className="row">
+                    {Projectdata.map((val,index) => {
                         return(
                             <ProjectCard 
+                            key = {index}
                             Pname = {val.name}
                             Pimgsrc = {val.imgsrc}
                             Psrc ={val.src}

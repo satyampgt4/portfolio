@@ -1,13 +1,13 @@
 function Aboutme() {
     return (
         <>
-            <div id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h2 class="heading">About Me</h2>
+            <div id="about"  data-aos="fade-right" data-aos-duration="1500">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-4">
+                            <h2 className="heading" data-aos="fade-right">About Me</h2>
                         </div>
-                        <div class="col-md-8">
+                        <div className="col-md-8" >
                             <p> I'm Satyam, a Sophmore pursuing Bachelors in Information Technology Engineering.
                                  I am an enthusiastic and social person who loves to take up new challenges and learn new skills. 
                                  I love meeting new people, exchanging ideas and spreading knowledge and positivity.
