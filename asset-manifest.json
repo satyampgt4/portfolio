@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "//satyampgt4.github.io/portfolio/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "//satyampgt4.github.io/portfolio/static/js/main.3536afcd.chunk.js",
-    "main.js.map": "//satyampgt4.github.io/portfolio/static/js/main.3536afcd.chunk.js.map",
+    "main.js": "//satyampgt4.github.io/portfolio/static/js/main.c1a2eeed.chunk.js",
+    "main.js.map": "//satyampgt4.github.io/portfolio/static/js/main.c1a2eeed.chunk.js.map",
     "runtime-main.js": "//satyampgt4.github.io/portfolio/static/js/runtime-main.02470c89.js",
     "runtime-main.js.map": "//satyampgt4.github.io/portfolio/static/js/runtime-main.02470c89.js.map",
     "static/js/2.66b6a5f8.chunk.js": "//satyampgt4.github.io/portfolio/static/js/2.66b6a5f8.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.02470c89.js",
     "static/js/2.66b6a5f8.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.3536afcd.chunk.js"
+    "static/js/main.c1a2eeed.chunk.js"
   ]
 }
