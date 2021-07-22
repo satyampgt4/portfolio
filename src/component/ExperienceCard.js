@@ -1,3 +1,5 @@
+import './static/expriencecard.css';
+
 
 function ExperienceCard(props) {
     const iconstyel =

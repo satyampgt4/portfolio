@@ -1,4 +1,5 @@
 import Skill from '../data/Skill';
+import './static/skills.css';
 function Skills() {
     return (
         <>

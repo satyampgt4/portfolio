@@ -1,5 +1,7 @@
 import ExperienceCard from './ExperienceCard';
 import Experiencedata from '../data/Experiencedata';
+import './static/experience.css';
+
 function Experiences() {
     return (
         <>

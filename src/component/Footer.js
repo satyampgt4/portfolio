@@ -1,3 +1,5 @@
+import './static/footer.css';
+
 function Footer() {
     
     return (

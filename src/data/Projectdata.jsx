@@ -7,6 +7,12 @@ const Projectdata = [
         des : " React.js, HTML, CSS, JavaScript"
     },
     {
+        name : "Weather App",
+        imgsrc : "images/whe.jpg",
+        src : "https://weatherapp-satyam.herokuapp.com/",
+        des : "  HTML, CSS, JavaScript,Nodejs "
+    },
+    {
         name : "ToDo List",
         imgsrc : "images/tdl.jpg",
         src : "https://satyampgt4.github.io/todolist",

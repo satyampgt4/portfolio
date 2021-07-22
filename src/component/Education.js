@@ -1,3 +1,4 @@
+import './static/education.css';
 
 function Education() {
     return (

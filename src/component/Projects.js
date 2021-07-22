@@ -1,5 +1,6 @@
 import Projectdata from '../data/Projectdata';
 import ProjectCard from './ProjectCard'
+import './static/projects.css';
 function Projects() {
     return (
         <>

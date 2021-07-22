@@ -1,3 +1,5 @@
+import './static/contact.css';
+
 function Contact() {
     return (
         <>

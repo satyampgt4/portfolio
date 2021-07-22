@@ -1,3 +1,4 @@
+import './static/resume.css';
 function Resume() {
     // const MoveDown = () =>{
     //     document.body.classList.remove('active');

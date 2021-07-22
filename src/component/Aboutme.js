@@ -1,3 +1,5 @@
+import './static/aboutme.css';
+
 function Aboutme() {
     return (
         <>

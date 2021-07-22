@@ -1,3 +1,5 @@
+import './static/navigation.css';
+
 function Navigation() {
     const openMenu = () =>{
         document.body.classList.add('active');
