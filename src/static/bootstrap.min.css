@@ -257,7 +257,7 @@ textarea {
 }
 
 a {
-  color: #337ab7;
+  color: var(--atext);
   text-decoration: none;
 }
 

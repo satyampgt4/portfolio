@@ -33,7 +33,7 @@
 }
 
 #lead-content h2 {
-  color: #a0cfee;
+  color: var(--bgc19);
   font-weight: 500;
   font-size: 2.25em;
   margin-bottom: 15px;
@@ -47,7 +47,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(33, 125, 187, 0.8);
+  background: var(--bgc18);
   z-index: 1;
 }
 
@@ -69,7 +69,7 @@
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  border: 3px solid #a0cfee;
+  border: 3px solid var(--bgc19);
   text-align: center;
 }
 
@@ -100,7 +100,7 @@
 }
 
 .btn-rounded-white:hover {
-  color: #3498db;
+  color: var(--base-color);
   background: #fff;
   text-decoration: none;
 }

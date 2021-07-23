@@ -8,7 +8,7 @@ footer {
 
 .copyright p {
   margin: 0;
-  color: #74808a;
+  color: var(--text);
 }
 .top {
   text-align: center;
@@ -26,7 +26,7 @@ footer {
 }
 
 .top i {
-  color: #74808a;
+  color: var(--text);
 }
 
 .social {
@@ -46,12 +46,12 @@ footer {
 
 .social a {
   display: block;
-  color: #74808a;
+  color: var(--text);
   padding: 10px;
 }
 
 .social a:hover {
-  color: #3498db;
+  color: var(--base-color);
 }
 @media only screen and (max-width: 768px) {
   footer {

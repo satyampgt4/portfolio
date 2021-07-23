@@ -1,9 +1,9 @@
 #experience {
   padding: 50px 15px;
   text-align: center;
-  border-bottom: 1px solid #dcd9d9;
+  border-bottom: 1px solid var(--border);
 }
 
 #experience h2 {
-  color: #374054;
+  color: var(--heading);
 }

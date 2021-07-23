@@ -1,11 +1,11 @@
 #experience {
   padding: 50px 15px;
   text-align: center;
-  border-bottom: 1px solid #dcd9d9;
+  border-bottom: 1px solid var(--border);
 }
 
 #experience h2 {
-  color: #374054;
+  color: var(--heading);
 }
 
 #experience-timeline {
@@ -23,7 +23,7 @@
   right: auto;
   height: 100%;
   width: 3px;
-  background: #3498db;
+  background: var(--base-color);
   z-index: 0;
 }
 
@@ -32,8 +32,8 @@
   content: "";
   width: 3px;
   height: 40px;
-  background: #3498db;
-  background: linear-gradient(to bottom, #3498db, rgba(52, 152, 219, 0));
+  background: var(--base-color);
+  background: linear-gradient(to bottom, var(--base-color), rgba(52, 152, 219, 0));
   top: 100%;
   left: 303px;
 }
@@ -50,7 +50,7 @@
 .vtimeline-content h3 {
   font-size: 1.5em;
   font-weight: 300;
-  color: #374054;
+  color: var(--heading);
   display: inline-block;
   margin: 0;
 }
@@ -58,12 +58,12 @@
 .vtimeline-content h4 {
   font-size: 1.2em;
   font-weight: 300;
-  color: #7e8890;
+  color: var(--bgc1o0);
   margin: 0 0 15px 0;
 }
 
 .vtimeline-content p {
-  color: #74808a;
+  color: var(--text);
   font-size: 0.9em;
   margin: 0;
 }
@@ -80,7 +80,7 @@
   color: #fff;
   width: 50px;
   height: 50px;
-  background: #3498db;
+  background: var(--base-color);
   border-radius: 50%;
   float: left;
   z-index: 99;
@@ -100,20 +100,20 @@
   left: 0;
   top: 10px;
   font-weight: 300;
-  color: #374054;
+  color: var(--heading);
 }
 
 .no-js #experience-timeline > div {
   background: #fff;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #dcd9d9;
+  border: 1px solid var(--border);
 }
 
 .no-js #experience-timeline > div h3 {
   font-size: 1.5em;
   font-weight: 300;
-  color: #374054;
+  color: var(--heading);
   display: inline-block;
   margin: 0;
 }
@@ -126,7 +126,7 @@
 }
 
 .no-js #experience-timeline > div p {
-  color: #74808a;
+  color: var(--text);
   font-size: 0.9em;
   margin: 0;
 }
