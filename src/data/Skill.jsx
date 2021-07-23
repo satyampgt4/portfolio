@@ -7,7 +7,9 @@ const Skill = [
     "JavaScript",
     "BootStrap",
     "React.js",
-    "Node.js"   
+    "Node.js" ,
+    "Express.js",
+    "MongooDB"  
 
 ];
 export default Skill;
