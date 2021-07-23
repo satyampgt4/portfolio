@@ -4,15 +4,44 @@
   box-sizing: border-box;
 }
 :root {
-  --bgc11: #3498db;;
-  --bgc12: #1d6fa5;
+  --base-color: #3498db;
+  --base-color-hover:#217dbb;
+  --form-input: #1d6fa5;
+
+  --border: #dcd9d9;
+  --text: #74808a;
+  --heading: #374054;
+  --atext:#337ab7;
+  
+  --bgc10: #fff;
+  --bgc19: #a0cfee;
+  --bgc18: #217dbbcc;
   --bgc13: #16527a;
   --bgc14: #f2f2f5;
-  --bgc14: #dcd9d9;
-  --bgc15: #74808a;
-  --bgc16: #374054;
-  
+  --bgc1o0:#7e8890;
+  --bgc1o2:#e4e4ea;
 
+/* ------------------------------ */
+
+  /* --base-color: #ecb163;
+  --base-color-hover:#9b742b;
+  --form-input: #a77223;
+
+
+  --border: #dcd9d9;
+  --text: #8a8474;
+  --heading: #545237;
+  --atext:#b78d33;
+
+  --bgc10: #fff;
+  --bgc19: #eedca0;
+  --bgc18: #e2ab45cc;
+  --bgc13: #7a6316;
+  --bgc14: #f5f4f2;
+  --bgc1o0:#908a7e;
+  --bgc1o2:#eae8e4; */
+
+  --alter: #ecb163;
 }
 html {
   scroll-behavior: smooth;
@@ -52,7 +81,7 @@ code {
   left: 0;
   right: 0;
   margin: 0 auto;
-  background: #3498db;
+  background: var(--base-color);
 }
 
 .background-alt {
@@ -64,11 +93,11 @@ code {
 .optional-section-block h3 {
   font-weight: 500;
   margin: 0 0 15px 0;
-  color: #374054;
+  color: var(--heading);
 }
 
 .optional-section-block h4 {
-  color: #74808a;
+  color: var(--text);
   clear: both;
   font-weight: 500;
   margin: 0 0 15px 0;
@@ -77,7 +106,7 @@ code {
 .optional-section-block p,
 .optional-section-block ul {
   margin: 0 0 15px 0;
-  color: #74808a;
+  color: var(--text);
   font-size: 0.9em;
 }
 

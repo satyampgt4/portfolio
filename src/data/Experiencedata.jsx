@@ -23,7 +23,7 @@ const Experiencedata = [
                 Amazing-Python-Scripts`,
     },
     {
-        src: "https://media-exp1.licdn.com/dms/image/C560BAQFgHU3sTF4LfQ/company-logo_200_200/0/1519895156650?e=1625702400&v=beta&t=AWnA-Igz9F8VGU4Zssj6jEZv0_T67akiW4AOoteD_ys",
+        src: "https://media-exp1.licdn.com/dms/image/C560BAQFgHU3sTF4LfQ/company-logo_200_200/0/1519895156650?e=1635379200&v=beta&t=xT_DoaYdWRCR31F0foMNJpE877Ohd63NLflHbKOK_X0",
         alt: "The Spark Foundation",
         date: "February 2021 - March  2021",
         orgn: "The Spark Foundation",

@@ -14,11 +14,11 @@ function Aboutme() {
             <div className="col-md-8">
               <p>
                 {" "}
-                I'm Satyam, a Sophmore pursuing Bachelors in Information
-                Technology Engineering. I am an enthusiastic and social person
-                who loves to take up new challenges and learn new skills. I love
-                meeting new people, exchanging ideas and spreading knowledge and
-                positivity.
+                I'm Satyam, a Pre Final year student pursuing Bachelors in
+                Information Technology Engineering. I am an enthusiastic and
+                social person who loves to take up new challenges and learn new
+                skills. I love meeting new people, exchanging ideas and
+                spreading knowledge and positivity.
               </p>
               <br />
               <p>

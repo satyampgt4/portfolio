@@ -23,12 +23,12 @@
 .project-info h3 {
   font-size: 1.5em;
   font-weight: 300;
-  color: #374054;
+  color: var(--heading);
   margin: 0 0 15px 0;
 }
 
 .project-info p {
-  color: #74808a;
+  color: var(--text);
   margin: 0 0 15px 0;
   font-size: 0.9em;
 }
