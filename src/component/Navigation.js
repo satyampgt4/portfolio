@@ -1,11 +1,13 @@
 import "./static/navigation.css";
-
-var changecolor;
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { useState } from "react";
 
 function Navigation() {
+  const [base, setbase] = useState("#3498db");
+
   const ChangeColor = () => {
     var r = document.querySelector(":root");
-    if (r.style.getPropertyValue("--base-color") != "#3498db") {
+    if (base !== "#3498db") {
       r.style.setProperty("--base-color", "#3498db");
       r.style.setProperty("--base-color-hover", "#217dbb");
       r.style.setProperty("--form-input", "#1d6fa5");
@@ -21,6 +23,7 @@ function Navigation() {
       r.style.setProperty("--bgc14", "#f2f2f5");
       r.style.setProperty("--bgc1o0", "#7e8890");
       r.style.setProperty("--bgc1o2", "#e4e4ea");
+      setbase("#3498db");
     } else {
       r.style.setProperty("--base-color", "#ecb163");
       r.style.setProperty("--base-color-hover", "#9b742b");
@@ -37,8 +40,10 @@ function Navigation() {
       r.style.setProperty("--bgc14", "#f5f4f2");
       r.style.setProperty("--bgc1o0", "#908a7e");
       r.style.setProperty("--bgc1o2", "#eae8e4");
+      setbase("#ecb163");
     }
   };
+
   const openMenu = () => {
     document.body.classList.add("active");
     document.getElementById("myHeader").classList.add("active");
@@ -59,34 +64,34 @@ function Navigation() {
         </div>
         <ul id="menu" className="shadow">
           <li>
-            <a href="#about" onClick={CloseMenu}>
-              About
-            </a>
+            <Link to="/">
+              <a onClick={CloseMenu}>Home</a>
+            </Link>
           </li>
           <li>
-            <a href="#experience" onClick={CloseMenu}>
-              Experience
-            </a>
+            <Link to="/about">
+              <a onClick={CloseMenu}>About</a>
+            </Link>
           </li>
           <li>
-            <a href="#education" onClick={CloseMenu}>
-              Education
-            </a>
+            <Link to="/experience">
+              <a onClick={CloseMenu}>Experience</a>
+            </Link>
           </li>
           <li>
-            <a href="#projects" onClick={CloseMenu}>
-              Projects
-            </a>
+            <Link to="/education">
+              <a onClick={CloseMenu}>Education</a>
+            </Link>
           </li>
           <li>
-            <a href="#skills" onClick={CloseMenu}>
-              Skills
-            </a>
+            <Link to="/projects">
+              <a onClick={CloseMenu}>Projects</a>
+            </Link>
           </li>
           <li>
-            <a href="#contact" onClick={CloseMenu}>
-              Contact
-            </a>
+            <Link to="/contact">
+              <a onClick={CloseMenu}>Contact</a>
+            </Link>
           </li>
           <li>
             <a id="changecolor" onClick={(CloseMenu, ChangeColor)}>

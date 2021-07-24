@@ -1,0 +1,16 @@
+#notfound {
+  padding: 50px 15px 20px 15px;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+#notfound h2 {
+  color: var(--heading);
+  margin-bottom: 30px;
+}
+#fourzerofour {
+  font-size: 50px;
+}
+#pagenotfound {
+  font-size: 35px;
+  margin-top: 20px;
+}

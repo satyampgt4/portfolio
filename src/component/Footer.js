@@ -11,10 +11,7 @@ function Footer() {
             </div>
             <div className="col-sm-2 top">
               <span id="to-top">
-                <a href="#lead">
-                  {" "}
-                  <i className="fa fa-chevron-up" aria-hidden="true"></i>
-                </a>
+                <i className="fa fa-chevron-up" aria-hidden="true"></i>
               </span>
             </div>
             <div className="col-sm-5 social">
@@ -23,6 +20,7 @@ function Footer() {
                   <a
                     href="https://www.linkedin.com/in/satyam-dengre-882862190/"
                     target="_blank"
+                    rel="noreferrer noopener"
                   >
                     <i className="fa fa-linkedin" aria-hidden="true"></i>
                   </a>

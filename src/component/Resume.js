@@ -6,21 +6,13 @@ function Resume() {
   // };
   return (
     <>
-      <div id="lead">
+      <div id="lead" data-aos="fade-up" data-aos-duration="1500">
         <div id="lead-content">
           <h2>Hi!...I am </h2>
           <h1>Satyam Dengre</h1>
           {/* <a href="#" className="btn-rounded-white">Download Resume</a> */}
         </div>
-
         <div id="lead-overlay"></div>
-        <a href="#about">
-          <div id="lead-down">
-            <span>
-              <i className="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-          </div>
-        </a>
       </div>
     </>
   );

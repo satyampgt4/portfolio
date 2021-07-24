@@ -21,12 +21,12 @@ footer {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  border: 3px solid #b9bfc4;
+  border: 3px solid #fff;
   text-align: center;
 }
 
 .top i {
-  color: var(--text);
+  color: #fff;
 }
 
 .social {
