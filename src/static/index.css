@@ -113,3 +113,21 @@ code {
 .optional-section-block ul {
   padding: 0 0 0 15px;
 }
+body::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+body::-webkit-scrollbar-track {
+  background:var(--atext);
+  border-radius: 3px;
+}
+body::-webkit-scrollbar-track:hover {
+  background:var(--bgc13);
+}
+
+
+body::-webkit-scrollbar-thumb {
+  background: transparent;
+  box-shadow: 0px 0px 0px 100000vh #edeff0;
+  border-radius: 20px;
+}

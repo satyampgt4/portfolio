@@ -2,25 +2,25 @@ const Projectdata = [
     
     {
         name : "Goolge keep Clone",
-        imgsrc : "images/keep.jpg",
+        imgsrc : "keep.jpg",
         src : "https://satyampgt4.github.io/keep-proto/",
         des : " React.js, HTML, CSS, JavaScript"
     },
     {
         name : "Weather App",
-        imgsrc : "images/whe.jpg",
+        imgsrc : "whe.jpg",
         src : "https://weatherapp-satyam.herokuapp.com/",
         des : "  HTML, CSS, JavaScript,Nodejs "
     },
     {
         name : "ToDo List",
-        imgsrc : "images/tdl.jpg",
+        imgsrc : "tdl.jpg",
         src : "https://satyampgt4.github.io/todolist",
         des : " React.js, HTML, CSS, JavaScript"
     },
     {
         name : "Tick-tack-toe",
-        imgsrc : "images/tto.jpg",
+        imgsrc : "tto.jpg",
         src : "https://satyampgt4.github.io/tictactoe",
         des : " HTML, CSS, JavaScript "
     }

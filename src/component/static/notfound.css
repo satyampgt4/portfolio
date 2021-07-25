@@ -2,6 +2,7 @@
   padding: 50px 15px 20px 15px;
   border-bottom: 1px solid var(--border);
   text-align: center;
+ 
 }
 #notfound h2 {
   color: var(--heading);
@@ -9,8 +10,15 @@
 }
 #fourzerofour {
   font-size: 50px;
+  
+  
+}
+#notfoundblock{
+  height: 450px;
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #pagenotfound {
   font-size: 35px;
-  margin-top: 20px;
 }

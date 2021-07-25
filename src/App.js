@@ -9,6 +9,7 @@ import Projects from "./component/Projects";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import Notfound from "./component/Notfound";
+import ScrollToTop from "./component/ScrollToTop";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Navigationside from "./component/Navigationside";
 import { useState } from "react";
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navigation />
         <Switch>
           <Route path="/education">
@@ -37,6 +39,9 @@ function App() {
             <Contact />
           </Route>
           <Route exact path="/">
+            <Resume />
+          </Route>
+          <Route exact path="/portfolio">
             <Resume />
           </Route>
           <Route path="*">
