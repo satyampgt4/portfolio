@@ -21,28 +21,28 @@ function App() {
         <ScrollToTop />
         <Navigation />
         <Switch>
-          <Route path="/education">
+          <Route path="/portfolio/education">
             <Education />
           </Route>
-          <Route path="/experience">
+          <Route path="/portfolio/experience">
             <Experiences />
             <Navigationside />
           </Route>
-          <Route path="/about">
+          <Route path="/portfolio/about">
             <Aboutme />
             <Skills />
           </Route>
-          <Route path="/projects">
+          <Route path="/portfolio/projects">
             <Projects />
           </Route>
-          <Route path="/contact">
+          <Route path="/portfolio/contact">
             <Contact />
-          </Route>
-          <Route exact path="/">
-            <Resume />
           </Route>
           <Route exact path="/portfolio">
             <Resume />
+          </Route>  
+          <Route path="/portfolio/*">
+            <Notfound />
           </Route>
           <Route path="*">
             <Notfound />

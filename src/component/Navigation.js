@@ -64,32 +64,32 @@ function Navigation() {
         </div>
         <ul id="menu" className="shadow">
           <li>
-            <Link to="/">
+            <Link to="/portfolio/">
               <a onClick={CloseMenu}>Home</a>
             </Link>
           </li>
           <li>
-            <Link to="/about">
+            <Link to="/portfolio/about">
               <a onClick={CloseMenu}>About</a>
             </Link>
           </li>
           <li>
-            <Link to="/experience">
+            <Link to="/portfolio/experience">
               <a onClick={CloseMenu}>Experience</a>
             </Link>
           </li>
           <li>
-            <Link to="/education">
+            <Link to="/portfolio/education">
               <a onClick={CloseMenu}>Education</a>
             </Link>
           </li>
           <li>
-            <Link to="/projects">
+            <Link to="/portfolio/projects">
               <a onClick={CloseMenu}>Projects</a>
             </Link>
           </li>
           <li>
-            <Link to="/contact">
+            <Link to="/portfolio/contact">
               <a onClick={CloseMenu}>Contact</a>
             </Link>
           </li>
