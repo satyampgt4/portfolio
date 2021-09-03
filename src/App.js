@@ -41,12 +41,7 @@ function App() {
           <Route exact path="/portfolio">
             <Resume />
           </Route>  
-          <Route path="/portfolio/*">
-            <Notfound />
-          </Route>
-          <Route path="*">
-            <Notfound />
-          </Route>
+          <Route component={Notfound} />
         </Switch>
         <Footer />
       </Router>
