@@ -1,5 +1,12 @@
 const Projectdata = [
     
+
+    {
+        name : "Bank management Web App",
+        imgsrc : "bms.jpg",
+        src : "https://github.com/satyampgt4/Bank_managment",
+        des : " NodeJs, ExpressJS, MYSQL"
+    },
     {
         name : "Goolge keep Clone",
         imgsrc : "keep.jpg",
