@@ -1,6 +1,7 @@
 #about {
-  padding: 75px 15px;
+  padding: 45px 15px;
   border-bottom: 1px solid var(--border);
+  margin-top: 55px;
 }
 
 #about h2 {

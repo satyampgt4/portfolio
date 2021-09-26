@@ -5,10 +5,13 @@ import "./static/experience.css";
 function Experiences() {
   return (
     <>
-      <div id="experience" className="background-alt">
-        <h2 className="heading" data-aos="fade-up">
-          Experience
-        </h2>
+      <div
+        id="experience"
+        className="background-alt"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <h2 className="heading">Experience</h2>
         {Experiencedata.map((val, index) => {
           return (
             <ExperienceCard

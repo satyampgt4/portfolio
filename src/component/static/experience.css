@@ -1,7 +1,8 @@
 #experience {
   padding: 50px 15px;
-  text-align: center;
   border-bottom: 1px solid var(--border);
+  text-align: center;
+  overflow-x: hidden;
 }
 
 #experience h2 {

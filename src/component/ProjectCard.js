@@ -1,9 +1,11 @@
 import "./static/projectcard.css";
+
 function ProjectCard(props) {
   const imgStyle = {
     height: "160px",
     width: "245px",
   };
+
   return (
     <>
       <div

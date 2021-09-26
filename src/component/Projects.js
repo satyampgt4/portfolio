@@ -2,6 +2,7 @@ import Projectdata from "../data/Projectdata";
 import ProjectCard from "./ProjectCard";
 import "./static/projects.css";
 function Projects() {
+  const baseUrl = "https://raw.githubusercontent.com/satyampgt4/portfolio/master/src/component/images/";
   return (
     <>
       <div
@@ -18,7 +19,7 @@ function Projects() {
                 <ProjectCard
                   key={index}
                   Pname={val.name}
-                  Pimgsrc={val.imgsrc}
+                  Pimgsrc={baseUrl + val.imgsrc}
                   Psrc={val.src}
                   Pdes={val.des}
                 />
