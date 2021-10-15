@@ -9,7 +9,9 @@ function Skills() {
           {Skill.map((val, index) => {
             return (
               <li key={index} data-aos="flip-right">
-                {val}
+
+                {/* <code><img height="58" src={val} /></code> */}
+                <img height="58" src={val} />
               </li>
             );
           })}

@@ -21,7 +21,7 @@
   margin: 7px;
   padding: 5px 10px;
   color: var(--heading);
-  background: var(--bgc1o2);
+  /* background: var(--bgc1o2); */
   list-style: none;
   cursor: default;
   font-size: 1.2em;
